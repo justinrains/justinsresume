@@ -1,15 +1,16 @@
 # humanstxt.org/
-# The humans responsible & technology colophon
 
-# TEAM
+/* TEAM */
+Chef: Justin Rains
+Contact: justin [at] justinrains.com
+From: Erlanger, KY
+Twitter: @justinrains
 
-    <name> -- <role> -- <twitter>
+/* THANKS */
+Name: Cortney Smith
 
-# THANKS
-
-    <name>
-
-# TECHNOLOGY COLOPHON
-
-    HTML5, CSS3
-    Normalize.css, jQuery, Modernizr
+/* SITE */
+Last update: 2015/05/25
+Standards: HTML5, CSS3
+Components: Modernizr, AngularJS.
+Software: Netbeans, dropbox and github
