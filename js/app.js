@@ -8,7 +8,7 @@
   });
   var pages = [
   {
-    name	: 'Resume in html',
+    name	: 'Justin\'s Resume',
 	url		: 'resume.html',
 	target	: '_self',
 	active	: true
@@ -28,6 +28,18 @@
   {
     name	: 'This site on github',
 	url		: 'https://github.com/justinrains/justinsresume',
+	target	: '_blank',
+	active	: true
+  },
+  {
+    name	: 'Wordpress Google Analytics Plugin',
+	url		: 'https://wordpress.org/plugins/simple-google-analytics-manager/',
+	target	: '_blank',
+	active	: true
+  },
+  {
+    name	: 'Wordpress Google Tag Manager Plugin',
+	url		: 'https://wordpress.org/plugins/simple-google-tag-manager/',
 	target	: '_blank',
 	active	: true
   },
