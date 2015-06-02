@@ -58,16 +58,16 @@
   ];
   var thissite = [
   {
-    text	: 'Is running on an Amazon AWS instance'
-  },
-  {
-    text	: 'Uses HTML5 boiletplate'
-  },
-  {
     text	: 'Uses Bootstrap for responsiveness'
   },
   {
     text	: 'Uses AngularJS to pull in data'
+  },
+  {
+    text	: 'Is running on an Amazon AWS instance'
+  },
+  {
+    text	: 'Uses Modernizr'
   }
   ]
 })();
