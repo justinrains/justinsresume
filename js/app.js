@@ -5,6 +5,7 @@
   app.controller('PagesController', function() {
     this.thepages = pages;
 	this.site = thissite;
+	this.portfolio = portfolio;
   });
   var pages = [
   {
@@ -53,7 +54,7 @@
     name	: 'Portal Planet',
 	url		: 'http://portalplanet.net',
 	target	: '_blank',
-	active	: true
+	active	: false
   }
   ];
   var thissite = [
@@ -68,6 +69,36 @@
   },
   {
     text	: 'Uses Modernizr'
+  }
+  ];
+  var portfolio = [
+  {
+    name	: "Portal Planet",
+	url		: "http://portalplanet.net/",
+	target 	: "_blank",
+	description	: "WordPress site using a responsive theme for mobile-readyness.",
+	active		: true
+	},
+  {
+    name	: "Advanced Outdoor Lighting",
+	url		: "http://advancedoutdoorlighting.net/",
+	target 	: "_blank",
+	description	: "WordPress site using a responsive (bootstrap) theme.",
+	active		: true
+	},
+  {
+    name	: "Ken Hayden Roofing",
+	url		: "http://roofs4you.com/",
+	target 	: "_blank",
+	description	: "WordPress site using a responsive theme for mobile-readyness.",
+	active		: true
+	},
+  {
+    name	: "Camping and Outdoors Blog",
+	url		: "http://www.greatwildoutdoors.com/",
+	target 	: "_blank",
+	description	: "WordPress site using the Thesis theme.",
+	active		: true
   }
   ]
 })();

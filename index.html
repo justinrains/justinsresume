@@ -39,23 +39,30 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <![endif]-->
 
 		<div class="container">
-          <h1>Justin Rains' Resume. Web Developer.</h1>
-		  <img src="img/headshot.png" class="img-circle img-responsive" /><br />
-		  <p class="lead">Welcome! You have happened across my resume site. Here I'm giving you my resume multiple ways:</p>
-		  <div class="clearfix">
+          <h1>Justin Rains' Resume. Web Developer, WordPress, Code Igniter, PHP.</h1>
+		  <div class="col-md-4">
+		    <img src="img/headshot.png" class="img-circle img-responsive" />
+		  </div>
 		  <div class="col-md-6">
+		  <p class="lead">Welcome! You have happened across my resume site. Here I'm giving you my resume multiple ways:</p>
 		  <ul class="list-group">
-		    <li class="list-group-item" ng-repeat="pages in myPage.thepages"><a href="{{pages.url}}" target="{{pages.target}}">{{ pages.name }}</a></li>
+		    <li class="list-group-item" ng-repeat="pages in myPage.thepages" ng-show="pages.active"><a href="{{pages.url}}" target="{{pages.target}}">{{ pages.name }}</a></li>
  		  </ul>
 		  </div>
-		  </div>
-		  <p class="lead">My vcard:<br />
-		    <img style="width: 200px;" src="img/jr-contact.png" class="img-responsive" /></p>
+<!--		  </div>
+		  </div>-->
+		  <div class="clearfix"></div>
+		  <p class="lead">Portfolio:</p>
+		  <ul class="list-unstyled">
+		    <li ng-repeat="portfolio in myPage.portfolio"><a href="{{portfolio.url}}" target="{{portfolio.target}}">{{ portfolio.name }}</a> &raquo; {{portfolio.description}}</li>
+		  </ul>
 		  <p class="lead">This site:</p>
 		  <ul class="list-unstyled">
 		    <li ng-repeat="sitetext in myPage.site">{{sitetext.text}}</li>
 		  </ul>
-
+		  <p class="lead">My vcard:<br />
+		    <img style="width: 200px;" src="img/jr-contact.png" class="img-responsive" /></p>
+<!---		</div>-->
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <script src="js/plugins.js"></script>
