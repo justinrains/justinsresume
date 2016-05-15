@@ -15,14 +15,14 @@
 	active	: true
   },
   {
-    name	: 'PDF Format (dropbox)',
-	url		: 'https://www.dropbox.com/s/2rwzi7o13jqkgrv/justin-rains-resume.pdf?dl=0',
+    name	: 'PDF Format',
+	url		: '/resume/justin-rains-resume.pdf?dl=0',
 	target	: '_blank',
 	active	: true
   },
   {
-    name	: 'Word Format (Dropbox)',
-	url		: 'https://www.dropbox.com/s/66j6xj0jstt7i45/justin-rains-resume.doc?dl=0',
+    name	: 'Word Format',
+	url		: '/resume/justin-rains-resume.doc?dl=0',
 	target	: '_blank',
 	active	: true
   },
@@ -66,10 +66,10 @@
   },
   {
     text	: 'Is running on an Amazon AWS instance'
-  },
-  {
-    text	: 'Uses Modernizr'
-  }
+  }//,
+//  {
+//    text	: 'Uses Modernizr'
+//  }
   ];
   var portfolio = [
   {
