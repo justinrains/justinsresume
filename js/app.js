@@ -15,14 +15,14 @@
 	active	: true
   },
   {
-    name	: 'PDF Format',
-	url		: '/resume/justin-rains-resume.pdf?dl=0',
+    name	: 'Adobe PDF Format',
+	url		: 'https://www.dropbox.com/s/2rwzi7o13jqkgrv/justin-rains-resume.pdf?dl=0',
 	target	: '_blank',
 	active	: true
   },
   {
     name	: 'Word Format',
-	url		: '/resume/justin-rains-resume.doc?dl=0',
+	url		: 'https://www.dropbox.com/s/66j6xj0jstt7i45/justin-rains-resume.doc?dl=0',
 	target	: '_blank',
 	active	: true
   },
@@ -46,7 +46,7 @@
   },
   {
 	name	: 'My personal site',
-	url		: 'http://www.justinrains.com/',
+	url		: 'http://justinrains.com/',
 	target	: '_blank',
 	active	: true
   },
