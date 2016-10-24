@@ -54,7 +54,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		  <div class="clearfix"></div>
 		  <p class="lead">Portfolio:</p>
 		  <ul class="list-unstyled">
-		    <li ng-repeat="portfolio in myPage.portfolio"><a href="{{portfolio.url}}" target="{{portfolio.target}}">{{ portfolio.name }}</a> &raquo; {{portfolio.description}}</li>
+		    <li ng-if=portfolio.active ng-repeat="portfolio in myPage.portfolio"><a href="{{portfolio.url}}" target="{{portfolio.target}}">{{ portfolio.name }}</a> &raquo; {{portfolio.description}}</li>
 		  </ul>
 		  <p class="lead">WordPress:</p>
 		  <ul class="list-unstyled">

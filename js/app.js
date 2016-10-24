@@ -73,13 +73,6 @@
   ];
   var portfolio = [
   {
-    name	: "Portal Planet",
-	url		: "http://portalplanet.net/",
-	target 	: "_blank",
-	description	: "WordPress site using a responsive theme for mobile-readyness.",
-	active		: true
-	},
-  {
     name	: "Advanced Outdoor Lighting",
 	url		: "http://advancedoutdoorlighting.net/",
 	target 	: "_blank",
@@ -87,8 +80,8 @@
 	active		: true
 	},
   {
-    name	: "Ken Hayden Roofing",
-	url		: "http://roofs4you.com/",
+	name	: "American Society For Quality - Cincinnati Section 0900",
+	url		: "http://asqcincinnati.org/",
 	target 	: "_blank",
 	description	: "WordPress site using a responsive theme for mobile-readyness.",
 	active		: true
@@ -98,6 +91,13 @@
 	url		: "http://www.greatwildoutdoors.com/",
 	target 	: "_blank",
 	description	: "WordPress site using the Thesis theme.",
+	active		: true
+  }, 
+  {
+	name	: "Portal Planet",
+	url		: "http://portalplanet.net/",
+	target 	: "_blank",
+	description	: "WordPress site using a responsive theme for mobile-readyness.",
 	active		: true
   }
   ]
