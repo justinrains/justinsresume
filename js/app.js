@@ -15,16 +15,16 @@
 	active	: true
   },
   {
-    name	: 'Adobe PDF Format',
-	url		: 'https://www.dropbox.com/s/2rwzi7o13jqkgrv/justin-rains-resume.pdf?dl=0',
+        name	: 'Adobe PDF Format',
+	url		: 'resume/justin-rains-resume.pdf',
 	target	: '_blank',
 	active	: true
   },
   {
     name	: 'Word Format',
-	url		: 'https://www.dropbox.com/s/66j6xj0jstt7i45/justin-rains-resume.doc?dl=0',
-	target	: '_blank',
-	active	: true
+    url		: 'resume/justin-rains-resume.docx',
+    target	: '_blank',
+    active	: true
   },
   {
     name	: 'This site on github',

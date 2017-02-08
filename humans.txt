@@ -3,14 +3,14 @@
 /* TEAM */
 Chef: Justin Rains
 Contact: justin [at] justinrains.com
-From: Erlanger, KY
+From: Columbus, OH
 Twitter: @justinrains
 
 /* THANKS */
 Name: Jerry
 
 /* SITE */
-Last update: 2016/10/21
+Last update: 2017/2/7
 Standards: HTML5, CSS3
 Components: Modernizr, AngularJS.
 Software: Netbeans, dropbox and github
