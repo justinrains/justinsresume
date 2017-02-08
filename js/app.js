@@ -65,7 +65,7 @@
     text	: 'Uses AngularJS to pull in data'
   },
   {
-    text	: 'Is running on an Amazon AWS instance'
+    text	: 'Recommends <a href="http://portalplanet.net/r/bh/" target="_blank">Bluehost website hosting</a>'
   }//,
 //  {
 //    text	: 'Uses Modernizr'
