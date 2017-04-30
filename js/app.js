@@ -4,21 +4,15 @@
 
   app.controller('PagesController', function() {
     this.thepages = pages;
-	this.site = thissite;
-	this.portfolio = portfolio;
+    this.site = thissite;
+    this.portfolio = portfolio;
   });
   var pages = [
   {
     name	: 'Justin\'s Resume',
-	url		: 'resume.html',
+	url	: 'resume.html',
 	target	: '_self',
-	active	: true
-  },
-  {
-        name	: 'Adobe PDF Format',
-	url		: 'resume/justin-rains-resume.pdf',
-	target	: '_blank',
-	active	: true
+	active	: false
   },
   {
     name	: 'Word Format',
@@ -27,8 +21,14 @@
     active	: true
   },
   {
+        name	: 'Adobe PDF Format',
+	url	: 'resume/justin-rains-resume.pdf',
+	target	: '_blank',
+	active	: true
+  },
+  {
     name	: 'This site on github',
-	url		: 'https://github.com/justinrains/justinsresume',
+	url	: 'https://github.com/justinrains/justinsresume',
 	target	: '_blank',
 	active	: true
   },
