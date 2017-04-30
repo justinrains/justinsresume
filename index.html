@@ -46,13 +46,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <img style="width: 200px;" src="img/jr-contact-qr.jpg" class="hidden-print img-responsive" />
 		  </div>
 		  <div class="col-md-6">
-		  <p class="lead">Welcome! You have happened across the resume site of Justin Rains, a Columbus, OH based web developer.<br />
-                      This site is written using HTML5, CSS3, bootstrap, and <strong><i>angular</i></strong> to pull in data.<br />
-                      Have at it:</p>
+                      <p class="lead">Welcome! You have happened across the resume site of <strong>Justin Rains</strong>, a <strong>Columbus, OH web developer</strong>.<br />
+                      This site is written using HTML5, CSS3, bootstrap, and <i>angularJS</i> to pull in data.</p>
 		  <ul class="list-group">
-		    <li class="list-group-item" ng-repeat="pages in myPage.thepages" ng-show="pages.active"><a href="{{pages.url}}" target="{{pages.target}}">{{ pages.name }}</a></li>
+		    <li class="list-group-item" ng-repeat="pages in myPage.thepages" ng-show="pages.active"><a href="{{pages.url}}" target="{{pages.target}}">{{ pages.active }} {{ pages.name }}</a></li>
  		  </ul>
-                  <a href="http://stackoverflow.com/users/639529/justin"><img src="http://stackoverflow.com/users/flair/639529.png" width="208" height="58" alt="profile for Justin at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Justin at Stack Overflow, Q&amp;A for professional and enthusiast programmers"></a>
+                  <a target="_blank" rel="nofollow" href="http://stackoverflow.com/users/639529/justin"><img src="http://stackoverflow.com/users/flair/639529.png" width="208" height="58" alt="profile for Justin at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Justin at Stack Overflow, Q&amp;A for professional and enthusiast programmers"></a>
 		  </div>
 		  <div class="clearfix"></div>
 		  <p class="lead">Portfolio:</p>
@@ -88,8 +87,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-<!-- Latest compiled and minified JavaScript -->
 <script src="js/bootstrap.min.js"></script>
-
     </body>
 </html>
