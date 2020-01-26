@@ -2,15 +2,16 @@
 
 /* TEAM */
 Chef: Justin Rains
-Contact: justin [at] justinrains.com
-From: Columbus, OH
+Contact: justin [at] portalplanet.net
+From: Elsmere, KY 41018
 Twitter: @justinrains
 
 /* THANKS */
 Name: Jerry
+Name: Sheila
 
 /* SITE */
-Last update: 2017/2/7
+Last update: 2020/01/26
 Standards: HTML5, CSS3
 Components: Modernizr, AngularJS.
 Software: Netbeans, dropbox and github
